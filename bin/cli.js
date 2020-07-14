@@ -20,6 +20,9 @@ const cli = meow(
 				type: "boolean",
 				alias: "sync",
 			},*/
+			extends: {
+				type: "string",
+			},
 		},
 	}
 );
